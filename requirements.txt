@@ -1,0 +1,17 @@
+asgiref==3.8.1
+backports.zoneinfo==0.2.1
+certifi==2019.11.28
+chardet==3.0.4
+dbus-python==1.2.16
+distro-info==0.23+ubuntu1.1
+Django==4.2.19
+idna==2.8
+PyGObject==3.36.0
+python-apt==2.0.1+ubuntu0.20.4.1
+requests==2.22.0
+requests-unixsocket==0.2.0
+six==1.14.0
+sqlparse==0.5.3
+typing-extensions==4.12.2
+unattended-upgrades==0.1
+urllib3==1.25.8
