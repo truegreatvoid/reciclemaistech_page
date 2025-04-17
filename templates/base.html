@@ -1,0 +1,24 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <base href=""/>
+    <title>Recicleaistech</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    {% include "includes/css.html" %}
+    {% block css_antes_pagina_local %}  
+    {% endblock css_antes_pagina_local %}
+  </head>
+
+  <body>
+    {% include "includes/_spinner.html" %}
+    {% include "includes/_navbar.html" %}
+    {% block conteudo %} {% endblock conteudo %}
+    {% include "includes/_footer.html" %}
+    {% include "includes/_copyright.html" %}
+    {% include "includes/js.html" %}
+    {% block js_depois %}  
+    {% endblock js_depois %}
+  </body>
+</html>
