@@ -99,9 +99,11 @@ DECIMAL_SEPARATOR = ','
 TIME_ZONE = 'America/Sao_Paulo'
 USE_THOUSAND_SEPARATOR = False
 
-STATIC_URL = 'static/'
+STATIC_URL = '/static/'
 STATIC_ROOT = BASE_DIR / 'staticfiles_web'
-STATICFILES_DIRS = [BASE_DIR / "static"]
+STATICFILES_DIRS = [
+    BASE_DIR / "static"
+]
 
 MEDIA_ROOT = BASE_DIR / 'media_web'
 MEDIA_URL = '/media/'
