@@ -9,7 +9,7 @@ urlpatterns = [
   path('sobre/', SobreView.as_view(), name='sobre'),
   path('investidor/', InvestidorView.as_view(), name='investidor'),
   path('contato/', ContatoView.as_view(), name='contato'),
-  path('pedido/?checkout=1548236&plano=semente', SementeView.as_view(), name='semente'),
-  path('pedido/?checkout=7846850&plano=raizes', RaizesView.as_view(), name='raizes'),
-  path('pedido/?checkout=3498756&plano=floresta', FlorestaView.as_view(), name='floresta'),
+  path('pedido/s/checkout/1548236/plano/semente', SementeView.as_view(), name='semente'),
+  path('pedido/s/checkout/7846850/plano/raizes', RaizesView.as_view(), name='raizes'),
+  path('pedido/s/checkout/3498756/plano/floresta', FlorestaView.as_view(), name='floresta'),
 ]
