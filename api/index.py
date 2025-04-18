@@ -1,1 +1,1 @@
-from conf.asgi import application
+from conf.asgi import application as app
