@@ -1,0 +1,45 @@
+<div class="modal fade" id="modalLogin" tabindex="-1" aria-labelledby="modalLoginLabel" aria-hidden="true">
+  <div class="modal-dialog modal-fullscreen">
+    <div class="modal-content">
+
+      <div class="modal-header border-0">
+        <h2 class="modal-title" id="modalLoginLabel">Login</h2>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+      </div>
+
+      <div class="modal-body d-flex align-items-center justify-content-center">
+        <div class="w-100" style="max-width: 500px;">
+          
+          <div class="text-center mb-4">
+            <p>Não tem uma conta?
+              <a href="#" data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#modalCadastro" class="text-primary text-decoration-underline">Registre-se</a>
+            </p>
+          </div>
+
+          <div class="d-grid gap-3 mb-4">
+            <a href="#" class="btn btn-outline-danger w-100"><i class="fab fa-google me-2"></i> Login com Google</a>
+            <a href="#" class="btn btn-outline-primary w-100"><i class="fab fa-facebook-f me-2"></i> Login com Facebook</a>
+          </div>
+
+          <div class="text-center mb-3">
+            <span class="text-muted">ou</span>
+          </div>
+
+          <form>
+            <div class="mb-3">
+              <label for="login-email" class="form-label">Email</label>
+              <input type="email" class="form-control" id="login-email" placeholder="Digite seu email">
+            </div>
+            <div class="mb-4">
+              <label for="login-password" class="form-label">Senha</label>
+              <input type="password" class="form-control" id="login-password" placeholder="Digite sua senha">
+            </div>
+
+            <button type="submit" class="btn btn-success w-100">Entrar</button>
+          </form>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>

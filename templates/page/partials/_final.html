@@ -1,17 +1,78 @@
 {% load static %}
-
-
+<div class="container-xxl py-5">
+  <div class="container">
+    <div class="row g-5 align-items-center">
+      <div class="row g-5 align-items-center">
+        <div class="col-lg-12 wow fadeInRight" data-wow-delay="0.1s">
+          <p class="section-title bg-white text-start text-primary pe-3">Nossos principais pontos de coletas</p>
+          <h1 class="mb-4">Vamos Juntos Criar um Futuro Mais Verde? Seja um parte da mudança. Nossos principais pontos perto de você.</h1>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 <div class="container-xxl py-5">
   <div class="container">
       <div class="row g-5 align-items-center">
-          <div class="col-lg-6 wow fadeInLeft" data-wow-delay="0.5s">
-              <img src="https://static.wixstatic.com/media/1d419d_99e18fdb528c4272b392f87b32dbeaf1~mv2.png/v1/fill/w_1080,h_663,al_c,q_90,enc_avif,quality_auto/1d419d_99e18fdb528c4272b392f87b32dbeaf1~mv2.png" class="img-fluid w-100" style="max-width: 500px;">
+        <div class="col-lg-6 wow fadeInRight" data-wow-delay="0.5s">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!3m2!1spt-BR!2sbr!4v1744991335046!5m2!1spt-BR!2sbr!6m8!1m7!1siIAsu2U0pyqs7MZpzMCOcg!2m2!1d-8.050100676507434!2d-34.93238675450112!3f44.645084!4f0!5f0.7820865974627469"
+            width="100%"
+            height="300"
+            style="border:0; border-radius: 12px;"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+        <div class="col-lg-6 wow fadeInRight" data-wow-delay="0.1s">
+          <p class="section-title bg-white text-start text-primary pe-3">Cordeiro</p>
+          <p class="ms-4">80 R. Rio Capibaribe</p>
+          <p class="ms-4">Recife, Pernambuco</p>
+        </div>
+      </div>
+  </div>
+</div>
+<div class="container-xxl py-5">
+  <div class="container">
+    <div class="row g-5 align-items-center">
+        <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+          <p class="section-title bg-white text-start text-primary pe-3">Boa Viagem</p>
+          <p class="ms-4">198 R. Dona Magina Pontual</p>
+          <p class="ms-4">Recife, Pernambuco</p>
+        </div>
+        <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!3m2!1spt-BR!2sbr!4v1744991335046!5m2!1spt-BR!2sbr!6m8!1m7!1siIAsu2U0pyqs7MZpzMCOcg!2m2!1d-8.050100676507434!2d-34.93238675450112!3f44.645084!4f0!5f0.7820865974627469"
+            width="100%"
+            height="300"
+            style="border:0; border-radius: 12px;"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+      </div>
+  </div>
+</div>
+<div class="container-xxl py-5">
+  <div class="container">
+      <div class="row g-5 align-items-center">
+          <div class="col-lg-6 wow fadeInDown" data-wow-delay="0.5s">
+            <iframe
+            src="https://www.google.com/maps/embed?pb=!3m2!1spt-BR!2sbr!4v1744991335046!5m2!1spt-BR!2sbr!6m8!1m7!1siIAsu2U0pyqs7MZpzMCOcg!2m2!1d-8.050100676507434!2d-34.93238675450112!3f44.645084!4f0!5f0.7820865974627469"
+            width="100%"
+            height="300"
+            style="border:0; border-radius: 12px;"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
           </div>
           <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-            <p class="section-title bg-white text-start text-primary pe-3">Com você!</p>
-            <h1 class="mb-4">Vamos Juntos Criar um Futuro Mais Verde?</h1>
-            <p class="mb-4">Seja um parte da mudança. Baixe o app, cadastre-se agora e comece a fazer a diferença no planeta. Ou, se você quiser ir além, invista ou se torne um parceiro de coleta da Recicle Mais.</p>
-            <a class="btn btn-secondary rounded-pill py-3 px-5 mt-3" href="">Baixa o APP</a>
+            <p class="section-title bg-white text-start text-primary pe-3">Jaboatão dos Guararapes</p>
+            <p class="ms-4">183 R. Santa Cruz Do Capibaribe</p>
+            <p class="ms-4">Jaboatão dos Guararapes, Pernambuco</p>
         </div>
       </div>
   </div>
@@ -24,8 +85,8 @@
         <h3 class="text-white">Siga a <strong>Recicle Mais</strong> nas redes sociais<br>e faça parte da mudança!</h3>
       </div>
       <div class="col-md-6 text-md-end text-center wow fadeInRight" data-wow-delay="0.3s">
-        <a href="#" class="btn btn-outline-light rounded-pill py-3 px-5 mt-3 me-3">Seja Investidor</a>
-        <a href="#" class="btn btn-secondary rounded-pill py-3 px-5 mt-3">Seja Parceiro de Coleta</a>
+        <a href="{% url 'page:investidor' %}" class="btn btn-outline-light rounded-pill py-3 px-5 mt-3 me-3">Seja Investidor</a>
+        <a href="#" class="btn btn-secondary rounded-pill py-3 px-5 mt-3" data-bs-toggle="modal" data-bs-target="#modalLogin">Seja Parceiro de Coleta</a>
       </div>
     </div>
   </div>

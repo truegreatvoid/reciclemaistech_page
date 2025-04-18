@@ -1,11 +1,14 @@
 {% load static %}
+
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
     <base href=""/>
-    <title>Recicleaistech</title>
+    <title>Recicle Mais</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link rel="shortcut icon" href="{% static 'image/logo.ico' %}" />
     <meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
     {% include "includes/css.html" %}
     {% block css_antes_pagina_local %}  
     {% endblock css_antes_pagina_local %}
@@ -17,6 +20,9 @@
     {% block conteudo %} {% endblock conteudo %}
     {% include "includes/_footer.html" %}
     {% include "includes/_copyright.html" %}
+    {% include "includes/_back-to-top.html" %}
+    {% include "includes/modal_fullscreen_cadastro.html" %}
+    {% include "includes/modal_fullscreen_login.html" %}
     {% include "includes/js.html" %}
     {% block js_depois %}  
     {% endblock js_depois %}

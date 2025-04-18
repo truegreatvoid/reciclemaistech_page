@@ -1,0 +1,44 @@
+<div class="modal fade" id="modalCadastro" tabindex="-1" aria-labelledby="modalCadastroLabel" aria-hidden="true">
+  <div class="modal-dialog modal-fullscreen">
+    <div class="modal-content">
+      <div class="modal-header border-0">
+        <h2 class="modal-title" id="modalCadastroLabel">Inscrição</h2>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+      </div>
+      <div class="modal-body d-flex align-items-center justify-content-center">
+        <div class="w-100" style="max-width: 600px;">
+          <form>
+            <div class="mb-3">
+              <label for="nome" class="form-label">Nome</label>
+              <input type="text" class="form-control" id="nome" placeholder="Digite seu nome">
+            </div>
+            <div class="mb-3">
+              <label for="sobrenome" class="form-label">Sobrenome</label>
+              <input type="text" class="form-control" id="sobrenome" placeholder="Digite seu sobrenome">
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" class="form-control" id="email" placeholder="Digite seu email">
+            </div>
+            <div class="mb-3">
+              <label for="telefone" class="form-label">Telefone</label>
+              <input type="tel" class="form-control" id="telefone" placeholder="(xx) xxxx-xxxx">
+            </div>
+            <div class="mb-4">
+              <label for="senha" class="form-label">Senha</label>
+              <input type="password" class="form-control" id="senha" placeholder="Crie uma senha">
+            </div>
+
+            <button type="submit" class="btn btn-success w-100 mb-3">Cadastrar</button>
+
+            <div class="text-center">
+              <small>Já é membro?
+                <a href="#" class="text-primary text-decoration-underline" data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#modalLogin">Faça login</a>
+              </small>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

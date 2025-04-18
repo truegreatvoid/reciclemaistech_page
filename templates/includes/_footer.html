@@ -3,8 +3,8 @@
       <div class="row g-5">
           <div class="col-lg-4 col-md-6">
               <h5 class="text-white mb-4">Recicle Mais</h5>
-              <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>123 Lorem ipsum, Magni expedita, Magni expedita</p>
-              <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+55 81 1111-2890</p>
+              <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Rua Padre Inglês, 257. Boa Vista, Recife - PE, 50050-230</p>
+              <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+55 81 3424-8783</p>
               <p class="mb-2"><i class="fa fa-envelope me-3"></i>contato@reciclemais.com</p>
               <div class="d-flex pt-3">
                   <a class="btn btn-square btn-secondary rounded-circle me-2" href=""><i class="fab fa-twitter"></i></a>
@@ -15,11 +15,10 @@
           </div>
           <div class="col-lg-4 col-md-6">
               <h5 class="text-white mb-4">Links</h5>
-              <a class="btn btn-link" href="">Home</a>
-              <a class="btn btn-link" href="">Sobre nós</a>
-              <a class="btn btn-link" href="">Baixe o APP</a>
-              <a class="btn btn-link" href="">Seja Investidor</a>
-              <a class="btn btn-link" href="">Contato</a>
+              <a class="btn btn-link" href="{% url 'page:page' %}">Home</a>
+              <a class="btn btn-link" href="{% url 'page:sobre' %}">Sobre nós</a>
+              <a class="btn btn-link" href="{% url 'page:investidor' %}">Seja Investidor</a>
+              <a class="btn btn-link" href="{% url 'page:contato' %}">Contato</a>
           </div>
           <div class="col-lg-4 col-md-6">
               <h5 class="text-white mb-4">Horário de Funcionamento</h5>

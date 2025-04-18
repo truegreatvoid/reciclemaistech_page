@@ -1,0 +1,68 @@
+<div class="container-xxl py-5">
+  <div class="container">
+    
+    <div class="row g-5 mb-5">
+      <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+        <p class="section-title bg-white text-start text-primary pe-3">1. Registrar-se</p>
+        <h2 class="mb-3">Para comprar esse plano e usar seus benefícios no futuro, faça login na sua conta ou registre-se.</h2>
+        <p>Você pode criar uma nova conta ou acessar sua conta existente para continuar com o pagamento do plano escolhido.</p>
+
+        <div class="d-flex gap-3 mt-4">
+          <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalCadastro">
+            Registrar-se
+          </a>
+          <a href="#" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#modalLogin">
+            Login
+          </a>
+        </div>
+      </div>
+
+      <div class="col-lg-6 wow fadeInRight" data-wow-delay="0.3s">
+        <p class="section-title bg-white text-start text-primary pe-3">2. Pagamento</p>
+        <div class="bg-light p-4 rounded shadow-sm">
+          <h4 class="mb-3">Resumo do pedido</h4>
+          <div class="mb-3">
+            <strong>Plano Semente – Inicie sua Jornada Sustentável</strong>
+            <p class="mb-1">💳 <strong>R$ 19,90</strong> / mês</p>
+            <p class="mb-1">⏳ Duração: Até ser cancelado</p>
+            <p class="mb-1">🎁 Período gratuito: <strong>7 dias</strong></p>
+          </div>
+
+          <hr>
+
+          <div class="d-flex justify-content-between fs-5 fw-bold">
+            <span>Total hoje</span>
+            <span>R$ 0,00</span>
+          </div>
+
+          <p class="text-muted mt-2">
+            Após o período gratuito, você será cobrado <strong>R$ 19,90</strong> mensalmente até o cancelamento.
+          </p>
+
+          <div class="text-center mt-4">
+            <button type="button" class="btn btn-success w-100 py-2" data-bs-toggle="modal" data-bs-target="#modalIndisponivel">
+              Checkout seguro
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div class="modal fade" id="modalIndisponivel" tabindex="-1" aria-labelledby="modalIndisponivelLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content border-0 rounded shadow p-2">
+      <div class="modal-header bg-warning-subtle">
+        <h5 class="modal-title text-dark" id="modalIndisponivelLabel">Não é possível comprar esse plano no momento</h5>
+      </div>
+      <div class="modal-body">
+        <p class="mb-0">Entre em contato conosco para finalizar sua compra.</p>
+      </div>
+      <div class="modal-footer border-0">
+        <button type="button" class="btn btn-primary w-100" data-bs-dismiss="modal">OK</button>
+      </div>
+    </div>
+  </div>
+</div>
