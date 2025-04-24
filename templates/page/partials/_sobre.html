@@ -2,50 +2,37 @@
 
 <div class="container-xxl py-5">
   <div class="container">
-      <div class="row g-5 align-items-end">
-          <div class="col-lg-6">
-              <div class="row g-2">
-                  {% comment %}
-                    <div class="col-6 position-relative wow fadeIn" data-wow-delay="0.7s">
-                      <div class="about-experience bg-secondary rounded">
-                        <h1 class="display-1 mb-0"></h1>
-                        <small class="fs-5 fw-bold"></small>
-                      </div>
-                    </div>
-                  {% endcomment %}
-                  <div class="col-6 wow fadeIn" data-wow-delay="0.1s">
-                      <img class="img-fluid rounded" src="{% static 'image/1_resized.jpg' %}">
-                  </div>
-                  <div class="col-6 wow fadeIn" data-wow-delay="0.3s">
-                      <img class="img-fluid rounded" src="{% static 'image/2_resized.jpg' %}">
-                  </div>
-                  <div class="col-6 wow fadeIn" data-wow-delay="0.5s">
-                      <img class="img-fluid rounded" src="{% static 'img/service-3.jpg' %}">
-                  </div>
-                  <div class="col-6 wow fadeIn" data-wow-delay="0.1s">
-                    <img class="img-fluid rounded" src="{% static 'image/5_resized.jpg' %}">
-                </div>
-              </div>
-          </div>
-          <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
-              <p class="section-title bg-white text-start text-primary pe-3">Sobre nós</p>
-              <h1 class="mb-4">Transformamos resíduos em soluções sustentáveis</h1>
-              <p class="mb-4"> A Recicle Mais nasceu com a missão de tornar a reciclagem um processo eficiente, inteligente e acessível para todos. Acreditamos que a tecnologia e a educação ambiental são pilares fundamentais para promover mudanças reais e duradouras no planeta.</p>
-              <div class="row g-5 pt-2 mb-5">
-                  <div class="col-sm-6">
-                      <img class="img-fluid mb-4" src="img/service.png" alt="">
-                      <h5 class="mb-3">Tecnologia a favor do meio ambiente</h5>
-                      <span>Utilizamos soluções digitais para otimizar a coleta, o rastreamento e a reutilização de resíduos em escala urbana e corporativa.
-                      </span>
-          </span>
-                  </div>
-                  <div class="col-sm-6">
-                      <img class="img-fluid mb-4" src="img/product.png" alt="">
-                      <h5 class="mb-3">Educação e conscientização</h5>
-                      <span>Promovemos ações educativas que fortalecem a cultura da sustentabilidade e incentivam o consumo responsável nas comunidades.</span>
-                  </div>
-              </div>
-          </div>
+    <div class="row g-5 align-items-center flex-column-reverse flex-lg-row">
+      <!-- Imagem à esquerda (ou abaixo no mobile) -->
+      <div class="col-lg-6 d-flex justify-content-center align-items-center ps-lg-5">
+        <div class="w-100 wow fadeIn" data-wow-delay="0.1s">
+          <img class="img-fluid rounded shadow" 
+               src="{% static 'image/hero/Design_sem_nome_23.png' %}" 
+               style="max-height: 600px; object-fit: cover;">
+        </div>
       </div>
+
+      <!-- Conteúdo à direita -->
+      <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+        <p class="section-title bg-white text-start text-primary pe-3">Sobre nós</p>
+        <h1 class="mb-4">Transformamos resíduos em soluções sustentáveis</h1>
+        <p class="mb-4">
+          A Recicle Mais nasceu com a missão de tornar a reciclagem um processo eficiente, inteligente e acessível para todos.
+          Acreditamos que a tecnologia e a educação ambiental são pilares fundamentais para promover mudanças reais e duradouras no planeta.
+        </p>
+        <div class="row g-5 pt-2 mb-5">
+          <div class="col-sm-6">
+            <img class="img-fluid mb-4" src="{% static 'img/service.png' %}" alt="">
+            <h5 class="mb-3">Tecnologia a favor do meio ambiente</h5>
+            <span>Utilizamos soluções digitais para otimizar a coleta, o rastreamento e a reutilização de resíduos em escala urbana e corporativa.</span>
+          </div>
+          <div class="col-sm-6">
+            <img class="img-fluid mb-4" src="{% static 'img/product.png' %}" alt="">
+            <h5 class="mb-3">Educação e conscientização</h5>
+            <span>Promovemos ações educativas que fortalecem a cultura da sustentabilidade e incentivam o consumo responsável nas comunidades.</span>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
